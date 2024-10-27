@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #34495e;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.newq.HelpDesk">
+   <children>
+      <Text fx:id="helpDeskText" layoutX="194.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HELP DESK">
+         <font>
+            <Font name="System Bold" size="41.0" />
+         </font>
+      </Text>
+      <Separator layoutX="131.0" layoutY="124.0" prefHeight="0.0" prefWidth="361.0" />
+      <Button fx:id="hstuWebsiteButton" layoutX="225.0" layoutY="166.0" mnemonicParsing="false" onAction="#onActionhstuWebsiteButton" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: #7f8c8d;" text="HSTU WEBSITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="teacherButton" layoutX="225.0" layoutY="223.0" mnemonicParsing="false" onAction="#onActionTeacherButton" prefWidth="150.0" style="-fx-background-color: #7f8c8d;" text="TEACHER">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="course" layoutX="225.0" layoutY="281.0" mnemonicParsing="false" onAction="#onActioncourse" prefWidth="150.0" style="-fx-background-color: #7f8c8d;" text="COURSE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="backButton" fitHeight="38.0" fitWidth="39.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#onActionBackButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../newBack.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
